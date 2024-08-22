@@ -1,0 +1,80 @@
+/* crypto.module.css */
+.container {
+	background-color: #ffffff; /* Background color */
+	color: white; /* Text color */
+	padding: 2rem;
+}
+.title {
+	color: #f1f5f9;
+}
+
+.table {
+	width: 100%;
+	border-collapse: collapse;
+	overflow-x: auto; /* Enable horizontal scrolling for small screens */
+	opacity: 0.5; /* Set opacity to 50% */
+}
+
+.tableHead {
+	background-color: #f1f5f9; /* Header background color */
+	color: #000000;
+}
+
+.tableRow {
+	background-color: #f9fafb; /* Row background color */
+	color: #000000;
+}
+
+.tableCell {
+	padding: 1rem;
+	border-bottom: 1px solid #e2e8f0;
+}
+
+.greenText {
+	color: #10b981; /* Profit text color */
+}
+
+.redText {
+	color: #ef4444; /* Loss text color */
+}
+
+.dropdown {
+	background-color: #ffffff; /* Dropdown background color */
+}
+
+/* Responsive Styles */
+@media (min-width: 1024px) {
+	.tableCellIcon {
+		width: 1.5rem; /* Reduce icon size on larger screens */
+		height: 1.5rem;
+	}
+}
+
+@media (max-width: 1024px) {
+	.tableCell {
+		font-size: 0.875rem; /* Slightly smaller font size for medium screens */
+		padding: 0.75rem; /* Adjust padding for medium screens */
+	}
+}
+
+@media (max-width: 768px) {
+	.tableCell {
+		font-size: 0.75rem; /* Smaller font size for small screens */
+		padding: 0.5rem; /* Adjust padding for small screens */
+	}
+}
+
+@media (max-width: 480px) {
+	.table {
+		font-size: 0.7rem; /* Smaller font size for very small screens */
+	}
+
+	.tableCell {
+		padding: 0.25rem; /* Adjust padding for very small screens */
+	}
+
+	.tableCellIcon {
+		width: 1.25rem; /* Smaller icons for very small screens */
+		height: 1.25rem;
+	}
+}
